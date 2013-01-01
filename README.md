@@ -25,12 +25,12 @@ USAGE
 First, you have to register an application on Twitter Developers. 
 After registration you'll get the Consumer key and the Consumer secret. Paste them in consumer.py between quotes.
 
-When ready, start with pythonbird.py i.e. in a bash shell, enter the same directory of this readme file and type:
+When ready, start with pythonbird_mini.py i.e. in a bash shell, enter the same directory of this readme file and type:
 
-python pythonbird.py
+python pythonbird_mini.py
 
 Follow the instructions. You'll get an access token and it will be automatically saved in access.py 
-You don't need to repeat this authentication procedure every time you want to use Pythonbird!
+You don't need to repeat this authentication procedure every time you want to use Pythonbird Mini.
 
 DISCLAIMER
 
