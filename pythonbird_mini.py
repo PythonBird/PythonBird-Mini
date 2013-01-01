@@ -20,12 +20,12 @@ def tweet():
         while True:
                 print "Compose new Tweet..."
                 tweet = raw_input()
-                if tweet == 'exit' or tweet == 'Exit':
-                        break
                 while len(tweet) > 140:
                     print ("The tweet must be less or equal to 140 characters")
                     tweet = raw_input("Insert your tweet: ")
                 api.update_status(tweet)
+                print "Tweet sent."
+                print '' 
 
 
 def begin():
