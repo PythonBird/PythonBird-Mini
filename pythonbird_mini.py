@@ -7,10 +7,10 @@ version: 0.1
 '''
 
 import tweepy
-import getpass
+from auth import startAuth
 
-auth = tweepy.BasicAuthHandler(raw_input('Insert username: '), getpass.getpass('Insert password: '))
-api = tweepy.API(auth)
+#Authorize this application
+api = startAuth()
 
 #Get yourself's object
 myself = api.me()
